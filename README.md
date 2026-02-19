@@ -37,6 +37,12 @@ This is a repository used to showcase results from a model comparison of traffic
 
 ---
 
+## Model evaluation
+
+The models match observed concentrations of several tracers well. We evaluate with normalized Mean Absolute Error and Pearson’s correlation coefficient of yearly average concentration for all available sites in Europe. The difference in the model can be attributed to both differences in chemical complexity and emission inventory used. TM5 perform best against PM2.5 measurements (nMAE = 0.18, r = 0.81, N = 41), BC (nMAE = 0.46, r = 0.56, N = 34), NO3 (nMAE = 0.44, r = 0.86, N = 22) and NH4 (nMAE = 0.45, r = 0.86, N= 19), while ADCHEM recover observed OA (nMAE = 0.33, r = 0.83, N= 20) and particle size distributions better.
+
+---
+
 ## Results
 
 ### Seasons PM2.5 from TM5-MP
@@ -97,7 +103,3 @@ This is a repository used to showcase results from a model comparison of traffic
 ![](figures/ADCHEM/map_UFP_adchem.png)
 
 ---
-
-## Model evaluation
-
-The models match observed concentrations of several tracers well. We evaluate with normalized Mean Absolute Error and Pearson’s correlation coefficient of yearly average concentration for all available sites in Europe. The difference in the model can be attributed to both differences in chemical complexity and emission inventory used. TM5 perform best against PM2.5 measurements (nMAE = 0.18, r = 0.81, N = 41), BC (nMAE = 0.46, r = 0.56, N = 34), NO3 (nMAE = 0.44, r = 0.86, N = 22) and NH4 (nMAE = 0.45, r = 0.86, N= 19), while ADCHEM recover observed OA (nMAE = 0.33, r = 0.83, N= 20) and particle size distributions better.
