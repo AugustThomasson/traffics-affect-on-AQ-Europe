@@ -103,3 +103,16 @@ The models match observed concentrations of several tracers well. We evaluate wi
 ![](figures/ADCHEM/map_UFP_adchem.png)
 
 ---
+
+### Select mean Traffic trace gases for 2018
+
+**Ozone**
+![](figures/TM5/map_GAS_O3_tm5.png)  
+
+**NOx**
+![](figures/TM5/map_GAS_NOx_tm5.png) 
+
+**OH**
+![](figures/TM5/map_GAS_OH_tm5.png) 
+
+---
